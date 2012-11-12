@@ -1,4 +1,0 @@
-delimiter $$
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`boris`@`%` SQL SECURITY DEFINER VIEW `patentory`.`uspto_classification_international_v` AS select `patentory_dev`.`uspto_classification_international`.`id` AS `id`,`patentory_dev`.`uspto_classification_international`.`patent_id` AS `patent_id`,`patentory_dev`.`uspto_classification_international`.`date` AS `date`,`patentory_dev`.`uspto_classification_international`.`section` AS `section`,`patentory_dev`.`uspto_classification_international`.`class` AS `class`,`patentory_dev`.`uspto_classification_international`.`subclass` AS `subclass`,`patentory_dev`.`uspto_classification_international`.`main_group` AS `main_group`,`patentory_dev`.`uspto_classification_international`.`subgroup` AS `subgroup` from `patentory_dev`.`uspto_classification_international`$$
-
